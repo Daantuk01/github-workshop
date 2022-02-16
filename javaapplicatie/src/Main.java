@@ -7,14 +7,14 @@ public class Main {
         startUserInterface();
     }
 
-    // This method implements the user interface of the application.
+    // This method implemenents the user interface of the application.
     static void startUserInterface() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Please give the first value a: ");
+        System.out.print("Please gave the first value a: ");
         int a = Integer.parseInt( scanner.nextLine() );
 
-        System.out.print("Please give the first value b: ");
+        System.out.print("Pleese give the first value b: ");
         int b = Integer.parseInt( scanner.nextLine() );
 
         // Use the method sum
